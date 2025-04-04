@@ -7,3 +7,50 @@ Vorname Nachname <email>
 
 == Einführung
 Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und praktische Üben der Syntax von AsciiDoc.
+
+== Kennenlernen der Syntax
+
+Über die Aufgaben wird das Dokument Stück für Stück aufgebaut und angepasst.
+
+=== Listen
+
+.Name: unsortierte Liste
+.Beispiel: unsortierte Liste 
+//https://webbau.brandenberger.eu/html/listen/liste.php#unsortiert_beispiel_2
+<ul>
+ <li>Erster Punkt, Zeile 1<br>Erster Punkt, Zeile 2</li>
+ <li>Zweiter Punkt, Zeile 1<br>Zweiter Punkt, Zeile 2</li>
+ <li>Dritter Punkt, Zeile 1<br>Dritter Punkt, Zeile 2</li>
+</ul>
+
+    -  Erster Punkt, Zeile 1
+        Erster Punkt, Zeile 2
+    -   Zweiter Punkt, Zeile 1
+        Zweiter Punkt, Zeile 2
+    -   Dritter Punkt, Zeile 1
+        Dritter Punkt, Zeile 2
+
+.Name: sortierte Liste
+.Beispiel: sortierte Liste
+<ol>	
+ <li>Erster Punkt, Zeile 1<br>Erster Punkt, Zeile 2</li>
+ <li>Zweiter Punkt, Zeile 1<br>Zweiter Punkt, Zeile 2</li>
+ <li>Dritter Punkt, Zeile 1<br>Dritter Punkt, Zeile 2</li>
+ <li>Vierter Punkt, Zeile 1<br>Vierter Punkt, Zeile 2</li>
+</ol>
+
+    	
+    1.  Erster Punkt, Zeile 1
+        Erster Punkt, Zeile 2
+    2.  Zweiter Punkt, Zeile 1
+        Zweiter Punkt, Zeile 2
+    3.  Dritter Punkt, Zeile 1
+        Dritter Punkt, Zeile 2
+    4.  Vierter Punkt, Zeile 1
+        Vierter Punkt, Zeile 2
+
+
+=== Tabellen und Textformatierung
+
+
+
