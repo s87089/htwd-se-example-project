@@ -1,6 +1,6 @@
 = Beispiel-Dokumentation mit AsciiDoc 
-Vorname Nachname <email> 
-1.0, 01.09.2019 
+Justus MÜller <s87089@stud.htw-dresden.de>
+1.0, 04.04.2025 
 :toc: 
 :toc-title: Inhaltsverzeichnis
 // Platzhalter für weitere Dokumenten-Attribute 
@@ -16,41 +16,37 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 
 .Name: unsortierte Liste
 .Beispiel: unsortierte Liste 
-//https://webbau.brandenberger.eu/html/listen/liste.php#unsortiert_beispiel_2
-<ul>
- <li>Erster Punkt, Zeile 1<br>Erster Punkt, Zeile 2</li>
- <li>Zweiter Punkt, Zeile 1<br>Zweiter Punkt, Zeile 2</li>
- <li>Dritter Punkt, Zeile 1<br>Dritter Punkt, Zeile 2</li>
-</ul>
 
-    -  Erster Punkt, Zeile 1
-        Erster Punkt, Zeile 2
-    -   Zweiter Punkt, Zeile 1
-        Zweiter Punkt, Zeile 2
-    -   Dritter Punkt, Zeile 1
-        Dritter Punkt, Zeile 2
+* Level 1 list item
+** Level 2 list item
+*** Level 3 list item
+**** Level 4 list item
+***** Level 5 list item
+****** etc.
+* Level 1 list item
 
 .Name: sortierte Liste
 .Beispiel: sortierte Liste
-<ol>	
- <li>Erster Punkt, Zeile 1<br>Erster Punkt, Zeile 2</li>
- <li>Zweiter Punkt, Zeile 1<br>Zweiter Punkt, Zeile 2</li>
- <li>Dritter Punkt, Zeile 1<br>Dritter Punkt, Zeile 2</li>
- <li>Vierter Punkt, Zeile 1<br>Vierter Punkt, Zeile 2</li>
-</ol>
-
     	
-    1.  Erster Punkt, Zeile 1
-        Erster Punkt, Zeile 2
-    2.  Zweiter Punkt, Zeile 1
-        Zweiter Punkt, Zeile 2
-    3.  Dritter Punkt, Zeile 1
-        Dritter Punkt, Zeile 2
-    4.  Vierter Punkt, Zeile 1
-        Vierter Punkt, Zeile 2
-
+. Level 1 list item
+.. Level 2 list item
+... Level 3 list item
+.... Level 4 list item
+..... Level 5 list item
+. Level 1 list item
 
 === Tabellen und Textformatierung
+.Textformatierung
+|===
+|Formatierung| Sytax| Beschreibung
 
+| *bold* | +*bold*+ | fetter Text
+| _italic_ | +_italic_+ | kursiver Text
+| `monospace` | +`monospace`+ | Text mit fester Laufweite
+| *_bolditalic_* |  +*_bolditalic_*+ | Text mit kombinierter Formatierung
+| **bold**__italic__ | +**bold**__italic__+| Text mit Formatierung innerhalb eines Wortes
+|===
 
+.Beispiel: Software Engeneering
 
+**S**oftware **E**ng__i__n__ee__``ring``
