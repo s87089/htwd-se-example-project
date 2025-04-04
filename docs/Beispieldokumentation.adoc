@@ -3,6 +3,8 @@ Justus MÜller <s87089@stud.htw-dresden.de>
 1.0, 04.04.2025 
 :toc: 
 :toc-title: Inhaltsverzeichnis
+:source-highlighter: highlight.js
+:imagesdir: images
 // Platzhalter für weitere Dokumenten-Attribute 
 
 == Einführung
@@ -50,3 +52,23 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 .Beispiel: Software Engeneering
 
 **S**oftware **E**ng__i__n__ee__``ring``
+
+
+=== Quellcode
+.hello.world.c
+[source,c]
+----
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+    printf("Hello, World!\n");
+    return 0;
+}
+----
+
+=== Bilder
+
+[#image1]
+.Screenshot
+image::screenshot.png[]
