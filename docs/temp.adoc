@@ -13,4 +13,7 @@ Das hier ist der Text für den zweiten commit.
 Das ist ein weiterer commit für 8.
 == Feature 2
 
+Feature X für aufgabe 1.2
+
+Und noch mehr Informationen!
 <insert_feature_here>
