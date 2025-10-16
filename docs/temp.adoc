@@ -14,4 +14,6 @@ Das ist ein weiterer commit für 8.
 == Feature 2
 
 Feature X für aufgabe 1.2
+
+Und noch mehr Informationen!
 <insert_feature_here>
