@@ -8,6 +8,7 @@
 
 <insert_feature_here>
 Das hier ist der Text für den ersten commit.
+Das hier ist der Text für den zweiten commit.
 == Feature 2
 
 <insert_feature_here>
