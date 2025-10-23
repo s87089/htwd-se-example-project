@@ -81,4 +81,4 @@ image::screenshot.png[]
 Issuetest
 
 
-Patrick ist ein toller Mensch
+Patrick ist ein toller Mensch.
